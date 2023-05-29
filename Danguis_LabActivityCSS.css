@@ -1,0 +1,50 @@
+@meta charset="UTF-8";
+                body{
+                background-repeat: no-repeat;
+                background-size:cover;
+                background-position: center;
+                background-image:url("https://i.gifer.com/SQie.gif");
+}
+            table{
+                width:50%;
+                border-collapse:collapse ;
+                margin-left: auto;
+                margin-right: auto;
+                margin-inline:auto;
+                margin-top:20px;
+              }
+              h1{
+                text-align: center ;
+                color:blue;
+                margin-top: 180px;
+               }
+              table td,table th{
+                  padding:20x 3px;
+                  border:1px solid #ddd;
+                  color: white;
+                  font-size: 15px;
+              }
+              table th{
+                  background-color: grey;
+                  color:white;
+                  
+              }
+               table tbody tr:nth-child(odd){
+                  background-color: pink ;
+                  color:white
+              }
+              div{
+                position: fixed;
+                left: 0;
+                bottom: 0;
+                width: 100%;
+                background-color: red;
+                color: white;
+                text-align: center;
+                height: 10%;
+                background-repeat: no-repeat;
+                background-size:cover;
+                background-position: center;
+                background-image:url("https://i.gifer.com/SQie.gif");
+
+             }
